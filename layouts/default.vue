@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <section class="grid" style="min-height: 100vh">
+  <section class="grid-container" style="min-height: 100vh">
     <LayoutSidebar />
     <div>
       <slot />
@@ -12,7 +12,7 @@
 </template>
 
 <style scoped>
-.grid {
+.grid-container {
   display: grid;
   grid-template-columns: 1fr 6fr;
 }
