@@ -711,6 +711,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@iconify/collections@npm:^1.0.406":
+  version: 1.0.414
+  resolution: "@iconify/collections@npm:1.0.414"
+  dependencies:
+    "@iconify/types": "*"
+  checksum: 9b275940cfab1455ec444daa3cfa66f580a4653835ff9dc2f116ac11b1f0f9455b49aa1d71ab10a95fa99f8798d91ddeda58fc0f98758f1141dfeafd400244d7
+  languageName: node
+  linkType: hard
+
+"@iconify/types@npm:*, @iconify/types@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@iconify/types@npm:2.0.0"
+  checksum: 029f58542c160e9d4a746869cf2e475b603424d3adf3994c5cc8d0406c47e6e04a3b898b2707840c1c5b9bd5563a1660a34b110d89fce43923baca5222f4e597
+  languageName: node
+  linkType: hard
+
+"@iconify/vue@npm:^4.1.1":
+  version: 4.1.1
+  resolution: "@iconify/vue@npm:4.1.1"
+  dependencies:
+    "@iconify/types": ^2.0.0
+  peerDependencies:
+    vue: ">=3"
+  checksum: 505fd96e69d6b805a4d3a5ee6f1a51e0cedb9ce9eb67be85be7118dafbb6bfcaf8c6ea6b261cdbf4efefb65687fd7572a82bd5ddab16383c5ecf13998dff9ca3
+  languageName: node
+  linkType: hard
+
 "@internationalized/date@npm:^3.5.2":
   version: 3.5.2
   resolution: "@internationalized/date@npm:3.5.2"
@@ -1002,7 +1029,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@nuxt/devtools-kit@npm:1.1.5":
+"@nuxt/devtools-kit@npm:1.1.5, @nuxt/devtools-kit@npm:^1.1.1":
   version: 1.1.5
   resolution: "@nuxt/devtools-kit@npm:1.1.5"
   dependencies:
@@ -6170,6 +6197,7 @@ __metadata:
     class-variance-authority: ^0.7.0
     clsx: ^2.1.0
     nuxt: ^3.11.2
+    nuxt-icon: ^0.6.10
     radix-vue: ^1.7.0
     shadcn-nuxt: ^0.10.2
     tailwind-merge: ^2.2.2
@@ -6178,6 +6206,18 @@ __metadata:
     vue-router: ^4.3.0
   languageName: unknown
   linkType: soft
+
+"nuxt-icon@npm:^0.6.10":
+  version: 0.6.10
+  resolution: "nuxt-icon@npm:0.6.10"
+  dependencies:
+    "@iconify/collections": ^1.0.406
+    "@iconify/vue": ^4.1.1
+    "@nuxt/devtools-kit": ^1.1.1
+    "@nuxt/kit": ^3.11.1
+  checksum: eaeb6d74f43e9aaacf421d2f7f96dfc215c55471ffdef7a2edbcb0ad8759255a7de81524c3ce13cb24bc96e6395a2aa07284645d71ff8a54bd230083cb4f969e
+  languageName: node
+  linkType: hard
 
 "nuxt@npm:^3.11.2":
   version: 3.11.2

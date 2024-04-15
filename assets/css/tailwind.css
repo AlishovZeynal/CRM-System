@@ -43,7 +43,7 @@
 		@apply border-border;
 	}
 	body {
-		@apply bg-background text-foreground text-base;
+		@apply bg-background text-foreground text-sm;
 		font-family: 'Lato', sans-serif;
 	}
 }
