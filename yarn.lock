@@ -6270,6 +6270,7 @@ __metadata:
     "@nuxtjs/google-fonts": ^3.2.0
     "@nuxtjs/tailwindcss": ^6.11.4
     "@radix-icons/vue": ^1.0.0
+    "@vueuse/core": ^10.9.0
     appwrite: ^14.0.0
     class-variance-authority: ^0.7.0
     clsx: ^2.1.0
