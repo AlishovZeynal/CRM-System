@@ -1,10 +1,11 @@
 <script setup lang="ts">
-const name = ref('');
-const email = ref('');
-const password = ref('');
 useSeoMeta({
   title: 'Login | CRM-System',
 });
+
+const name = ref('');
+const email = ref('');
+const password = ref('');
 </script>
 
 <template>
