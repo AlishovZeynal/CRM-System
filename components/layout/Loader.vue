@@ -1,5 +1,4 @@
 <template>
-  <!-- TODO: Auth -->
 	<div class="wrapper">
 		<NuxtImg src="/loader.svg" alt="" width="220" />
 	</div>
