@@ -2,7 +2,7 @@
 import { v4 as uuid } from 'uuid'
 
 useSeoMeta({
-	title: 'Login | CRM System',
+	title: 'Login | CRM-System',
 })
 
 const emailRef = ref('')
